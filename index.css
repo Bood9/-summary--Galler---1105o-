@@ -1,0 +1,121 @@
+@font-face {
+    font-family:Montserrat ;
+    src: url("/fonts/Montserrat-Black.ttf") ;
+}
+@font-face {
+    font-family:Roboto-Regular ;
+    src: url("/fonts/Roboto-Black.ttf");
+}
+@font-face {
+    font-family:RobotoMono ;
+    src: url("/fonts/RobotoMono.ttf");
+}
+@font-face {
+    font-family:SFMonoRegular ;
+    src: url("/fonts/SFMono-Bold.otf");
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+body {
+    margin: 0 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0ddd4f;
+    text-align: center;
+}
+header {
+    font-family: Roboto-Regular;
+    font-size: 0.8em;
+    margin-top: 0 0 ;
+}
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 6px 10;
+}
+h2 {
+ font-size: 1em;
+ text-align: center;
+ padding: 6 10;
+}
+.logo {
+height: 50px;
+width: 50px;
+
+}
+.container {
+    columns: 3;
+    height: 1640px;
+    width: 2000px;
+}
+.cont1 {
+       
+    display: inline-block;
+    text-align: center;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    font-family: Roboto-Regular;
+    font-size: 1em;
+    background-color: rgb(8, 195, 212);
+    border-top-left-radius:  24px;
+    border-top-right-radius:  24px;
+    border-bottom-left-radius:  24px;
+    border-bottom-right-radius: 24px;
+    width: 560px;
+    height: 580px;
+    font-weight: normal;
+    
+}
+.cont1:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px #e30a0a;
+    color: #2d1bcf;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    
+}
+a:hover{
+color:red ; 
+    text-decoration: none;
+}
+img {
+    height: 50%;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+p{
+    text-align: right;
+    font-size: 16px;
+}
+.footerclass {
+    text-align: center;
+
+}
+.colortext{
+    color:red;
+}
+.cont1{
+    background-image: url(https://i.gifer.com/3VF.gif);
+}
+body{
+    background-image: url(/images/1613123960_22-p-fon-kosmos-zheltii-26.jpg);
+    background-position:bottom right;
+}
+.name{
+    filter:
+    drop-shadow(5px 5px 10px #5f15e5);
+    color:white
+}
+
+.block{
+    margin-top: 500px;
+}
